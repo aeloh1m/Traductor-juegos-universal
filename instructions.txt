@@ -1,0 +1,1 @@
+pip install unidic-lite Pillow pytesseract cutlet translators wxPython
