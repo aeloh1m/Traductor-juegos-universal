@@ -10,11 +10,15 @@ Primero habrá que tener instalados los siguientes:
 
 - Python y su respectivo PATH en las variables del sistema,
 
-- Pip: Ir hacia ./dir/to/python/Scripts
+- Pip: Primero dirigirse hasta el directorio " ./dir/to/python/Scripts "
+```diff
 #Paso 1
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+En el cmd de windows (o una consola) ejecutar:
+> curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 #Paso 2
-python get-pip.py
+> python get-pip.py
+```
+
 
 - Tesseract-OCR (enlace directo): https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-5.3.1.20230401.exe 
 también con su respectivo PATH agregado.
