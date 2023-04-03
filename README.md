@@ -22,33 +22,35 @@ también con su respectivo PATH agregado.
 Una vez instalado Tesseract-OCR, es necesario también agregar una variable
 del sistema nueva:
 
-**_NOTE:_** - Nombre de la variable: TESSDATA_PREFIX - Valor de la variable: C:\Program Files\Tesseract-OCR\tessdata
+```diff
+- Nombre de la variable: TESSDATA_PREFIX
+- Valor de la variable: C:\Program Files\Tesseract-OCR\tessdata
+```  
 
 Dentro del directorio "tessdata" previo, en donde se haya instalado, agregar
 los dos archivos dentro de la carpeta "tessdata" en el repositorio.
 
+```diff
 **_NOTE:_** Para agregar algún PATH, primero es necesario tener la dirección donde este
 instalado el programa o archivo e ir hasta:
 Panel de Control > Sistema > (del lado derecho) Opciones avanzadas del sistema >
 Variables de entorno, en la variable path clickear editar y agregar desde "Nuevo",
-la dirección del archivo/programa. 
-
+la dirección del archivo/programa.
+```
+ 
 ## Instalación:
 
-py -3.9 -m venv venv
+> py -3.9 -m venv venv
 
-.\venv\Scripts\Activate.ps1
+> .\venv\Scripts\Activate.ps1
 
-pip install unidic-lite Pillow pytesseract cutlet translators wxPython
+> pip install unidic-lite Pillow pytesseract cutlet translators wxPython
 
 
 Una vez teniendo todo listo, ejecutar el script mediante:
 
-python .\main.py
+> python .\main.py
 
-
-pip install -r requirements.txt
-Este comando instalará todas las bibliotecas necesarias, incluyendo Tesseract, PyAutoGUI y otras.
 
 ## Uso
 Para utilizar este traductor de juegos, simplemente ejecuta el archivo main.py y sigue las instrucciones en pantalla. La ventana de captura de pantalla se abrirá automáticamente, y puedes hacer clic en cualquier lugar de la ventana para tomar una captura de pantalla de la zona correspondiente. La imagen capturada se procesará automáticamente mediante Tesseract OCR y se mostrará en la ventana de salida.
