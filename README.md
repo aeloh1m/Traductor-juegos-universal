@@ -28,10 +28,10 @@ del sistema nueva:
 ```  
 
 Dentro del directorio "tessdata" previo, en donde se haya instalado, agregar
-los dos archivos dentro de la carpeta "tessdata" en el repositorio.
+los [dos archivos](https://github.com/aeloh1m/Traductor-juegos-universal/tree/main/tessdata) dentro de la carpeta "tessdata" en el repositorio .
 
 ```diff
-**_NOTE:_** Para agregar algún PATH, primero es necesario tener la dirección donde este
+Nota: Para agregar algún PATH, primero es necesario tener la dirección donde este
 instalado el programa o archivo e ir hasta:
 Panel de Control > Sistema > (del lado derecho) Opciones avanzadas del sistema >
 Variables de entorno, en la variable path clickear editar y agregar desde "Nuevo",
